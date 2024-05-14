@@ -13,7 +13,4 @@ class Movie {
         $this->description =$description;
     }
 
-    public function displayMovie() {
-
-}
 }
