@@ -1,0 +1,8 @@
+.text-color {
+    color: red;
+    font-weight: bolder;
+}
+
+.card {
+    border: 1px solid red;
+}
