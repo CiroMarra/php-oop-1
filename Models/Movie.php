@@ -13,7 +13,7 @@ class Movie {
         $this->description =$description;
     }
 
-public function displayMovie() {
+    public function displayMovie() {
 
 }
 }

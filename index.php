@@ -22,11 +22,11 @@ require_once __DIR__  . "/Models/Movie.php";
             <div class="col-lg-4 mb-4">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title text-color"><?= $movie->title ?></h5>
-                        <div class="card-text"><span class="text-color">Director:</span> <?= $movie->director ?></div>  
-                        <div class="card-text"><span class="text-color">Descrizione:</span> <?= $movie->description ?></div>
+                        <h5 class="card-title text-color"><?php echo $movie->title ?></h5>
+                        <div class="card-text"><span class="text-color">Director:</span> <?php echo $movie->director ?></div>  
+                        <div class="card-text"><span class="text-color">Descrizione:</span> <?php echo $movie->description ?></div>
                         <div class="card-text"><span class="text-color">Genres:</span>
-                            <?php
+                            <?php 
                             $genres = count($movie->genres);
                             foreach ($movie->genres as $index => $genre) {
                                 echo $genre;
